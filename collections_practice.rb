@@ -36,3 +36,8 @@ def find_a(array)
     letter[0] == "a"
   end
 end
+
+def sum_array(array)
+  array.inject(0) |sum, i|
+  sum + i
+end 
