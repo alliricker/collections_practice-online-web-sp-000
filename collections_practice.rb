@@ -23,5 +23,5 @@ end
 
 def reverse_array(array)
   array.sort_by! do |a, b|
-    b <=> a 
+    b <=> a
 end
