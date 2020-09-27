@@ -26,12 +26,14 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.each do {|i| i[2] = "$"}
+  array.each do |i|
+    i[2] = "$"
   end
 end
 
 def find_a(array)
-  array.find_all do {|letter| letter[0] == "a"}
+  array.find_all do |letter|
+    letter[0] == "a"
   end
 end
 
